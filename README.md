@@ -29,6 +29,7 @@ Larastan was created by [Can Vural](https://github.com/canvural) and [Nuno Madur
 | < 9                | 1.x              |
 | \> 9.0 && >= 11.16 | 2.x              |
 | 11.16+             | 3.0+             |
+| 12.0+              | 3.0+             |
 
 ## Sponsors
 <a href="https://blackfire.io/docs/introduction?utm_source=larastan&utm_medium=github_readme&utm_campaign=logo"><img src="assets/blackfire-logo.png" alt="Blackfire.io" width="254" height="64"></a>
@@ -37,7 +38,7 @@ Larastan was created by [Can Vural](https://github.com/canvural) and [Nuno Madur
 
 > **Requires:**
 - **[PHP 8.2+](https://php.net/releases/)**
-- **[Laravel 11.15+](https://github.com/laravel/laravel)**
+- **[Laravel 11.15+ or Laravel 12.0+](https://github.com/laravel/laravel)**
 
 **1**: First, you may use [Composer](https://getcomposer.org) to install Larastan as a development dependency into your Laravel project:
 

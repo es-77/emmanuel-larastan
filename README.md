@@ -17,9 +17,12 @@
 
 Larastan was created by [Can Vural](https://github.com/canvural) and [Nuno Maduro](https://github.com/nunomaduro), got artwork designed by [@Caneco](http://github.com/caneco), is maintained by [Can Vural](https://github.com/canvural), [Nuno Maduro](https://github.com/nunomaduro) and [Viktor Szépe](https://github.com/szepeviktor), and is a [PHPStan](https://phpstan.org/) extension for Laravel. Larastan focuses on **finding errors in your code**. It catches whole classes of bugs even **before you write tests** for the code.
 
+This is the **Emmanuel Larastan Laravel 12** version with enhanced Laravel 12 support and compatibility.
+
 - Adds static typing to Laravel to improve developer productivity and **code quality**
 - Supports most of [Laravel](https://laravel.com)'s **beautiful magic**
 - Discovers bugs in your code
+- **Enhanced Laravel 12 support** with improved compatibility
 
 > While by definition, "static analysis" doesn't load any of your application's code. Larastan boots your application's container, so it can resolve types that are only possible to compute at runtime. That's why we use the term "code analysis" instead of "static analysis".
 
@@ -43,7 +46,7 @@ Larastan was created by [Can Vural](https://github.com/canvural) and [Nuno Madur
 **1**: First, you may use [Composer](https://getcomposer.org) to install Larastan as a development dependency into your Laravel project:
 
 ```bash
-composer require --dev "larastan/larastan:^3.0"
+composer require --dev "emmanuel/larastan-laravel-12:^3.0"
 ```
 
 > Using Larastan for analysing Laravel packages? You may need to install `orchestra/testbench`.
@@ -52,7 +55,7 @@ composer require --dev "larastan/larastan:^3.0"
 
 ```
 includes:
-    - vendor/larastan/larastan/extension.neon
+    - vendor/emmanuel/larastan-laravel-12/extension.neon
     - vendor/nesbot/carbon/extension.neon
 
 parameters:

@@ -1,8 +1,8 @@
 {
-    "name": "larastan/larastan",
+    "name": "emmanuel/larastan-laravel-12",
     "type": "phpstan-extension",
-    "description": "Larastan - Discover bugs in your code without running it. A phpstan/phpstan extension for Laravel",
-    "keywords": ["laravel", "larastan", "phpstan", "php", "package", "static analysis", "code analysis", "code analyse"],
+    "description": "Larastan - Discover bugs in your code without running it. A phpstan/phpstan extension for Laravel with enhanced Laravel 12 support",
+    "keywords": ["laravel", "larastan", "phpstan", "php", "package", "static analysis", "code analysis", "code analyse", "laravel-12"],
     "license": "MIT",
     "authors": [
         {

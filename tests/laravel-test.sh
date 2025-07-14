@@ -10,16 +10,16 @@ cd ../laravel/
 SAMPLE_APP_DIR="$(pwd)"
 composer show --direct
 
-echo "Add Larastan from source"
+echo "Add Emmanuel Larastan Laravel 12 from source"
 composer config minimum-stability dev
 composer config repositories.0 '{ "type": "path", "url": "../larastan", "options": { "symlink": false } }'
 
 # No version information with "type":"path"
-composer require --dev --optimize-autoloader "larastan/larastan:*"
+composer require --dev --optimize-autoloader "emmanuel/larastan-laravel-12:*"
 
 cat >phpstan.neon <<"EOF"
 includes:
-    - ./vendor/larastan/larastan/extension.neon
+    - ./vendor/emmanuel/larastan-laravel-12/extension.neon
 parameters:
     level: 5
     paths:

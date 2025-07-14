@@ -15,11 +15,11 @@ composer config minimum-stability dev
 composer config repositories.0 '{ "type": "path", "url": "../larastan", "options": { "symlink": false } }'
 
 # No version information with "type":"path"
-composer require --dev --optimize-autoloader "emmanuel/larastan-laravel-12:*"
+composer require --dev --optimize-autoloader "emmsanuel-saleem/larastan-laravel-12:*"
 
 cat >phpstan.neon <<"EOF"
 includes:
-    - ./vendor/emmanuel/larastan-laravel-12/extension.neon
+    - ./vendor/emmsanuel-saleem/larastan-laravel-12/extension.neon
 parameters:
     level: 5
     paths:

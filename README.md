@@ -46,7 +46,7 @@ This is the **Emmanuel Larastan Laravel 12** version with enhanced Laravel 12 su
 **1**: First, you may use [Composer](https://getcomposer.org) to install Larastan as a development dependency into your Laravel project:
 
 ```bash
-composer require --dev "emmanuel/larastan-laravel-12:^3.0"
+composer require --dev "emmsanuel-saleem/larastan-laravel-12:^3.0"
 ```
 
 > Using Larastan for analysing Laravel packages? You may need to install `orchestra/testbench`.
@@ -55,7 +55,7 @@ composer require --dev "emmanuel/larastan-laravel-12:^3.0"
 
 ```
 includes:
-    - vendor/emmanuel/larastan-laravel-12/extension.neon
+    - vendor/emmsanuel-saleem/larastan-laravel-12/extension.neon
     - vendor/nesbot/carbon/extension.neon
 
 parameters:
